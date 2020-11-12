@@ -21,8 +21,8 @@ Our project consists of developing our own text CAPTCHA solver/attacker with dee
     	- For this step, our training set has to have CAPTCHAs with a fixed number of characters. 
     	- This step will probably be repeated several times to train models with CAPTCHAs of different numbers of characters. 
 3. Extend the implementation to include CAPTCHAS with:
-    	- A variable number of characters. 
-		Predict how many characters are in the CAPTCHA
-	- Select a model that has already been trained for that number of characters. 
-    - Multiple words.
-	- Segment the words in the CAPTCHA to recognize individual words for multi-word CAPTCHA systems. 
+	- A variable number of characters. 
+		 - Predict how many characters are in the CAPTCHA
+		 - Select a model that has already been trained for that number of characters. 
+	- Multiple words.
+	 	 - Segment the words in the CAPTCHA to recognize individual words for multi-word CAPTCHA systems. 
