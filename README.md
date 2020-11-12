@@ -16,13 +16,13 @@ Proposed design of project:
 
 Our project consists of developing our own text CAPTCHA solver/attacker with deep learning and modifying it to include captchas with a variable number of characters and captchas with multiple words.These modifications were suggested in the paper as extensions that would make the author’s solver even more effective. We will be applying these modifications to our deep learning captcha solver. 
 
-[ ]Build our own text-based CAPTCHA solver using deep learning with help from open-source projects on github. 
-[ ]Compile our training dataset. 
-    - For this step, our training set has to have CAPTCHAs with a fixed number of characters. 
+1. Build our own text-based CAPTCHA solver using deep learning with help from open-source projects on github. 
+2. Compile our training dataset. 
+    	- For this step, our training set has to have CAPTCHAs with a fixed number of characters. 
     	- This step will probably be repeated several times to train models with CAPTCHAs of different numbers of characters. 
-[ ]Extend the implementation to include CAPTCHAS with:
-    - A variable number of characters. 
-	- Predict how many characters are in the CAPTCHA
+3. Extend the implementation to include CAPTCHAS with:
+    	- A variable number of characters. 
+		Predict how many characters are in the CAPTCHA
 	- Select a model that has already been trained for that number of characters. 
     - Multiple words.
 	- Segment the words in the CAPTCHA to recognize individual words for multi-word CAPTCHA systems. 
